@@ -12,3 +12,4 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('FLASK_MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('FLASK_MAIL_PASSWORD')
     ADMINS = ['justin@somuchuptime.com']
+    POSTS_PER_PAGE = 25
